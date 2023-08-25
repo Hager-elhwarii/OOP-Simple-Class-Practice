@@ -5,7 +5,7 @@ class Player {
     this.name = Name;
     this.country = Country;
   }
-  get born() {
+   introduce() {
     console.log(`${this.name} was born in ${this.country}.`);
   }
 }
@@ -14,20 +14,20 @@ class Player {
 // firstPlayer is the caller.
 
 const firstPlayer = new Player("Messi", "Argentina");
-firstPlayer.born;
+firstPlayer.introduce();
 
 // Creating a subClass that inherits from the parent Class.
 class TennisPlayer extends Player {
-  constructor(Name, Age) {
-    super(Name);
+  constructor(Name,Country,Age) {
+    super(Name,Country);
     this.age = Age;
   }
-  get Age() {
+   playTennis() {
     console.log(
       `${this.name} is ${this.age} years old and knows how to play Tennis.`
     );
   }
 }
 
-const secondPlayer = new TennisPlayer("Rafael Nadal", 34);
-secondPlayer.Age;
+const secondPlayer = new TennisPlayer("Rafael Nadal","Spain" ,38);
+secondPlayer.playTennis();
