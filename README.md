@@ -1,4 +1,4 @@
-(OOP) Simple-Class-Practice 💡
+## (OOP) Simple-Class-Practice 💡
 
 Create a class Player with the following:
 
