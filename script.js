@@ -31,3 +31,4 @@ class TennisPlayer extends Player {
 
 const secondPlayer = new TennisPlayer("Rafael Nadal","Spain" ,38);
 secondPlayer.playTennis();
+secondPlayer.introduce();
