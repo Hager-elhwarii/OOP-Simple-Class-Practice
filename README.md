@@ -13,6 +13,7 @@
    ✅ Add a new property Age.
 
    ✅ Add a function that when it runs should print into the console something similar,
+  
    ("Rafael Nadal is 34 years old and knows how to play Tennis").
 
    ✅ Make sure the Name and Age are dynamic.
