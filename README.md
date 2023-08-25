@@ -1,6 +1,6 @@
-## (OOP) Simple-Class-Practice 💡
+# (OOP) Simple-Class-Practice 💡
 
-Create a class Player with the following:
+- Create a class Player with the following:
 
 ✅ Add a Name and Country properties
 
@@ -8,7 +8,7 @@ Create a class Player with the following:
 
 ✅ Make sure to adapt this function to receive dynamic Names and Clubs.
 
-Create a Subclass called TennisPlayer that extends from the class Player:-
+- Create a Subclass called TennisPlayer that extends from the class Player:-
 
 ✅ Add a new property Age.
 
