@@ -2,7 +2,7 @@
 
 - Create a class Player with the following:
 
- ✅ Add a Name and Country properties
+     ✅ Add a Name and Country properties
 
  ✅ Add a function that when it runs should print into the console ("Messi was born in Argentina").
 
